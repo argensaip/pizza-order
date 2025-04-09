@@ -1,0 +1,136 @@
+body {
+    margin: 0;
+    font-family: "Smythe", system-ui;
+} 
+
+.container {
+    max-width: 508px;
+    margin: 0 auto;
+}
+
+.header-img {
+    display: block;
+    margin: 0 auto;
+}
+
+.item {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 51px 0;
+    border-bottom: 1px solid #D2D2D2;
+}
+
+.item-img {
+    display: block;
+    max-width: 70px;
+    height: 89px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.h2 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 16.8px;
+    letter-spacing: 0%;
+    margin: 0;
+    text-transform: capitalize;
+}
+
+.info-p {
+    margin: 0;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;    
+}
+
+.info-price {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    letter-spacing: 0%; 
+    margin: 0;
+}
+
+.item-btn {
+    background: none;
+    border: none;
+    padding: 0;
+}
+
+.footer-h2 {
+    text-align: center;
+}
+
+.footer {
+    padding: 45px 0 53px 0;
+    max-width: 508px;
+    margin: 0 auto;
+}
+
+.orders {
+    margin: 0;
+    padding: 63px 0 30px 0;
+    list-style: none;
+    border-bottom: 2px solid #393333;
+}
+
+.order {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 0 9px 0;
+    align-items: center;
+}
+
+.order-h2 {
+    display: flex;
+    align-items: center;
+}
+
+.remove {
+    font-family: Verdana, sans-serif;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 24px;
+    letter-spacing: 0%;   
+    margin-left: 5px; 
+    color: #BBBBBB;
+    text-transform: lowercase;
+}
+
+.footer-total {
+    margin: 14px 0 44px 0;
+}
+
+.footer-h4 {
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    letter-spacing: 0%;
+    margin: 0;
+}
+
+.footer-btn {
+    font-family: Verdana, sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0%;   
+    color: #FFFFFF; 
+    background: #16DB99;
+    box-shadow: 0px 1px 2px 0px #0000000D;
+    border: none;
+    margin: 0 auto;
+    display: block;
+    padding: 18px 184.5px;
+}
+
+.invisible {
+    display: none;
+}
