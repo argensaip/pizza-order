@@ -25,10 +25,22 @@
         </ul>
         <div class="footer-total order">
             <h4 class="footer-h4">Total price:</h4>
-            <h3 class="info-price">$28</h3>
+            <h3 id="total-price" class="info-price">$0</h3>
         </div>
         <button id="complete-btn" class="footer-btn">Complete order</button>
     </footer>
+    <div id="modal" class="modal invisible">
+        <div class="modal-inner">
+            <h3 class="modal-h3">Enter card details</h3>
+            <form id="modal-form">
+                <input id="input-name" name="name" type="text" placeholder="Enter your name" required>
+                <input id="input-number" name="number" type="number" placeholder="Enter card number" required>
+                <input type="number" name="cvv" placeholder="Enter CVV" required>
+                <button id="pay-btn">Pay</button>
+            </form>
+        </div>
+    </div>
+    <div class="cong container invisible"></div>
     <script src="index.js" type="module"></script>
 </body>
 
