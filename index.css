@@ -4,7 +4,7 @@ body {
 } 
 
 .container {
-    max-width: 508px;
+    max-width: 31.75em;
     margin: 0 auto;
 }
 
@@ -17,14 +17,14 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 51px 0;
-    border-bottom: 1px solid #D2D2D2;
+    padding: 3.19em 0;
+    border-bottom: 0.06em solid #D2D2D2;
 }
 
 .item-img {
     display: block;
-    max-width: 70px;
-    height: 89px;
+    max-width: 4.38em;
+    height: 5.56em;
 }
 
 .info {
@@ -35,8 +35,8 @@ body {
 
 .h2 {
     font-weight: 400;
-    font-size: 28px;
-    line-height: 16.8px;
+    font-size: 1.75rem;
+    line-height: 1.05rem;
     letter-spacing: 0%;
     margin: 0;
     text-transform: capitalize;
@@ -45,15 +45,15 @@ body {
 .info-p {
     margin: 0;
     font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0%;    
 }
 
 .info-price {
     font-weight: 400;
-    font-size: 20px;
-    line-height: 24px;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
     letter-spacing: 0%; 
     margin: 0;
 }
@@ -69,22 +69,22 @@ body {
 }
 
 .footer {
-    padding: 45px 0 53px 0;
-    max-width: 508px;
+    padding: 2.81em 0 3.31em 0;
+    max-width: 31.75em;
     margin: 0 auto;
 }
 
 .orders {
     margin: 0;
-    padding: 63px 0 30px 0;
+    padding: 3.94em 0 1.88em 0;
     list-style: none;
-    border-bottom: 2px solid #393333;
+    border-bottom: 0.13em solid #393333;
 }
 
 .order {
     display: flex;
     justify-content: space-between;
-    margin: 0 0 9px 0;
+    margin: 0 0 0.56em 0;
     align-items: center;
 }
 
@@ -96,10 +96,10 @@ body {
 .remove {
     font-family: Verdana, sans-serif;
     font-weight: 400;
-    font-size: 12px;
-    line-height: 24px;
+    font-size: 0.75rem;
+    line-height: 1.5rem;
     letter-spacing: 0%;   
-    margin-left: 5px; 
+    margin-left: 0.31em; 
     color: #BBBBBB;
     text-transform: lowercase;
 }
@@ -109,13 +109,13 @@ body {
 }
 
 .footer-total {
-    margin: 14px 0 44px 0;
+    margin: 0.88em 0 2.75em 0;
 }
 
 .footer-h4 {
     font-weight: 400;
-    font-size: 28px;
-    line-height: 24px;
+    font-size: 1.75rem;
+    line-height: 1.5rem;
     letter-spacing: 0%;
     margin: 0;
 }
@@ -123,17 +123,17 @@ body {
 .footer-btn {
     font-family: Verdana, sans-serif;
     font-weight: 700;
-    font-size: 16px;
-    line-height: 24px;
+    font-size: 1rem;
+    line-height: 1.5rem;
     letter-spacing: 0%;   
     color: #FFFFFF; 
     background: #16DB99;
-    box-shadow: 0px 1px 2px 0px #0000000D;
+    box-shadow: 0px 0.06em 0.13em 0px #0000000D;
     border: none;
     margin: 0 auto;
     display: block;
-    padding: 18px 184.5px;
-    border-radius: 3px;
+    padding: 1.13em 11.53em;
+    border-radius: 0.19em;
 }
 
 .invisible {
@@ -147,19 +147,19 @@ body {
     top: 0;
     bottom: 0;
     margin: auto;
-    padding: 48px 0 30px 0;
-    width: 524px;
-    height: 542px;
+    padding: 3em 0 1.88em 0;
+    width: 32.75em;
+    height: 33.88em;
     background: #FFFFFF;
-    box-shadow: 5.19px 5.19px 255.44px 0px #00000080;
-    border-radius: 3.89px;
+    box-shadow: 0.32em 0.32em 15.97em 0px #00000080;
+    border-radius: 0.24em;
 }
 
 .modal-h3 {
     font-family: Verdana, sans-serif;
     font-weight: 700;
-    font-size: 24px;
-    line-height: 31.12px;
+    font-size: 1.5rem;
+    line-height: 1.94rem;
     letter-spacing: 0%; 
     margin: 0;   
     text-align: center;
@@ -168,23 +168,23 @@ body {
 #modal-form {
     display: flex;
     flex-direction: column;
-    margin-top: 62px;
+    margin-top: 3.88em;
 }
 
 input {
     display: inline-block;
     font-family: Verdana, sans-serif;
     font-weight: 400;
-    font-size: 20px;
-    line-height: 31.12px;
+    font-size: 1.25rem;
+    line-height: 1.94rem;
     letter-spacing: 0%;
     color: #000000;
-    border: 1.3px solid #757575;
-    height: 71.3px;
+    border: 0.08em solid #757575;
+    height: 4.46em;
     content: wrap;
-    padding-left: 27px;
-    margin-bottom: 23px;
-    border-radius: 3.89px;
+    padding-left: 1.69em;
+    margin-bottom: 1.44em;
+    border-radius: 0.24em;
 }
 
 input::-webkit-outer-spin-button,
@@ -194,35 +194,35 @@ input::-webkit-inner-spin-button {
 
 .modal-inner {
     margin: 0 auto;
-    max-width: 476px;
+    max-width: 29.75em;
 }
 
 #pay-btn {
-    margin-top: 23px;
+    margin-top: 1.44em;
     font-family: Verdana, sans-serif;
     font-weight: 700;
-    font-size: 20px;
-    line-height: 31.12px;
+    font-size: 1.25rem;
+    line-height: 1.94rem;
     letter-spacing: 0%;
     background: #16DB99;
     border: none;
     color: #FFFFFF;
-    border-radius: 3.89px;
-    padding: 20px 0;
+    border-radius: 0.24em;
+    padding: 1.25em 0;
 }
 
 .cong {
     text-align: center;
     background: #ECFDF5;
-    padding: 51.5px 0;
-    border-radius: 3px;
-    margin: 45px auto;
+    padding: 3.22em 0;
+    border-radius: 0.19em;
+    margin: 2.81em auto;
 }
 
 .cong-p {
     font-weight: 400;
-    font-size: 32px;
-    line-height: 16.8px;
+    font-size: 2rem;
+    line-height: 1.05rem;
     letter-spacing: 0%; 
     color: #065F46;   
     margin: 0;
